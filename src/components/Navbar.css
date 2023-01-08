@@ -1,0 +1,10 @@
+.navbar-collapse
+{
+    justify-content: right;
+}
+@media screen and (max-width: 700px) {
+    .navbar-collapse
+{
+    margin-left: 0;
+}
+  }
