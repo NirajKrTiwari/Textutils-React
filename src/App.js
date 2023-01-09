@@ -42,7 +42,7 @@ function App() {
     <Navbar title="TextUtils" about="About" mode={mode} toggleMode={toggleMode} modeText={modeText}/>
     <Alert alert={alert}/>
     <div className="container mb-3">
-    <TextForm showAlert={showAlert} heading="Enter the text to analyze" mode={mode}/>
+    <TextForm showAlert={showAlert} heading="TextUtils - Word Counter, Character Counter, Remove extra spaces" mode={mode}/>
     </div>
         </>
   );
